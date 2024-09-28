@@ -287,7 +287,6 @@ int main()
 	std::string mesh_file = "G:/Dataset/img2brep/test_1817/mesh/00001817_0.ply";
 	const int number_of_sample_on_triangle_mesh = 10000;
 
-
 	CGAL::Surface_mesh<K::Point_3> mesh;
 	if (!CGAL::IO::read_PLY(mesh_file, mesh))
 	{
